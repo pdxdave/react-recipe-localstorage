@@ -1,8 +1,9 @@
+import style from '../styles/home.module.css'
 
 const Home = () => {
     return (
-        <div>
-            <h2>Home</h2>
+        <div className={style.banner}>
+            
         </div>
     )
 }
