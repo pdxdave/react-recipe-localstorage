@@ -33,4 +33,8 @@ nav ul li a {
     font-size: 1.2rem;
     text-decoration: none;
     color: black;
+    transition: .2s ease-in;
+}
+nav ul li a:hover{
+    color: #f2f2f2;
 }
