@@ -31,3 +31,11 @@
     cursor: pointer;
     color: #f2f2f2;
 }
+.card_container {
+    width: 1300px;
+    max-width: 100%;
+    margin: 50px auto 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

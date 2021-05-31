@@ -1,17 +1,33 @@
+
+
 .recipe_card {
-    border: 1px solid red;
     position: relative;
     width: 302px;
     margin: 10px;
 }
 .card_label {
-    
-    background: white;
-    font-size: 1.2rem;
+    background: rgba(255,255,255, 0.6);
+    font-size: 1.3rem;
+    padding: 3px 0;
     width: 100%;
     text-align: center;
     position: absolute;
-    bottom: 2%;
+    bottom: 4.5%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+
+.recipe_card_btn {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 4px 0;
+    border: none;
+    background-color: rgb(32,178,170);
+    transition: .2s ease-in;
+}
+
+.recipe_card_btn:hover     {
+    filter: brightness( 130%);
+    cursor: pointer;
 }

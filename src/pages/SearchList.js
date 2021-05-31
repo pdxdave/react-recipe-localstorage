@@ -51,7 +51,7 @@ const SearchList = () => {
                     </form>
                     </div>
                 </div>
-            <div>
+            <div className={style.card_container}>
                 {data.map((food) => (
                     <SearchListRecipe food={food} key={food.recipe.calories}/>
                 ))}  
