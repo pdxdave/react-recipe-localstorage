@@ -7,10 +7,8 @@
     background-repeat: no-repeat;
 }
 
-.form_container {
-   
+.form_container { 
     width: 404px;
-    /* margin: 0 auto; */
     height: 32px;
     position: absolute;
     top: 50%;
